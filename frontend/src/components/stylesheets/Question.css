@@ -1,0 +1,33 @@
+.question {
+  margin-bottom: 20px;
+}
+
+h3 {
+  padding-left: 30px;
+}
+
+li {
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.question__option {
+  background-color: #6c5489;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+}
+
+li > input {
+  cursor: pointer;
+}
+
+.complete__button {
+  margin-top: 30px;
+  margin-left: 40px !important;
+  margin-bottom: 30px;
+}

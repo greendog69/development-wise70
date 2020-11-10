@@ -1,0 +1,157 @@
+.page__header {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.page__header > h3 {
+  color: lightgray;
+}
+
+.package__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.package__container > div {
+  width: 22rem;
+  box-shadow: 0 1px 8px lightgray;
+}
+
+.package-gold {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  transition: transform 0.5s;
+}
+.package-gold:hover {
+  transform: scale(1.04);
+}
+
+.package-gold .card-header {
+  background-color: #c9a666 !important;
+  color: white;
+  height: 150px;
+}
+
+.package-gold .card-body {
+  margin-top: 55px;
+}
+
+.package-gold .card-footer {
+  background-color: #c9a666 !important;
+  color: white;
+}
+
+.package-gold .card-footer > button {
+  background-color: white !important;
+  color: #c9a666 !important;
+  font-weight: bold;
+}
+
+.package-gold .card-footer > button:hover {
+  background-color: #c9a666 !important;
+  color: white !important;
+}
+
+.package-bronze {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  transition: transform 0.5s;
+  transform: scale(1.08);
+}
+
+.package-bronze:hover {
+  transform: scale(1.09);
+}
+
+.package-bronze .card-header {
+  background-color: #9d967a !important;
+  color: white;
+  height: 150px;
+}
+
+.package-bronze .card-body {
+  margin-top: 55px;
+}
+
+.package-bronze .card-footer {
+  background-color: #9d967a !important;
+  color: white;
+}
+
+.package-bronze .card-footer > button {
+  background-color: white !important;
+  color: #9d967a !important;
+  font-weight: bold;
+}
+
+.package-bronze .card-footer > button:hover {
+  background-color: #9d967a !important;
+  color: white !important;
+}
+
+.package-silver {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  transition: transform 0.5s;
+}
+
+.package-silver:hover {
+  transform: scale(1.04);
+}
+
+.package-silver .card-header {
+  background-color: silver;
+  color: white;
+  height: 150px;
+}
+
+.package-silver .card-body {
+  margin-top: 55px;
+}
+
+.package-silver .card-footer {
+  background-color: silver;
+  color: white;
+}
+
+.package-silver .card-footer > button {
+  background-color: white !important;
+  color: silver !important;
+  font-weight: bold;
+}
+
+.package-silver .card-footer > button:hover {
+  background-color: silver !important;
+  color: white !important;
+}
+
+.price__container {
+  border-radius: 999%;
+  border: 8px solid lightgray;
+  width: 39%;
+  padding: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  position: absolute;
+  top: 6rem;
+  left: 6rem;
+}
+
+.price__container > p {
+  font-size: 3rem;
+}
+
+.package__description > ul {
+  padding-left: 0;
+}
+
+.package__description > ul > li {
+  border-bottom: 1px solid lightgray;
+}
